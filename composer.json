@@ -1,0 +1,26 @@
+{
+    "name": "oxilao/oxilao",
+	"type": "project",
+	"license": "MIT",
+    "description": "the \"FrameworkPHP_7 of ModernApp\". ",
+	"authors": [
+		{ "name":  "phpGerbill", "email": "phpGerbill@o2.pl" }
+	],
+	
+    "require": {
+        "php": "^7.0"
+    },
+	
+	"autoload": {
+		"psr-4": { "Oxilao\\Component\\Console\\": "" },
+		"exclude-from-classmap": [
+            "/Tests/"
+        ]
+	},
+	
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
